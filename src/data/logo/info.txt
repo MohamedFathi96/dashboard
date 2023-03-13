@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Rancho-Regular
+font link: https://fonts.google.com/specimen/Rancho
+font author: Sideshow
+font author site: http://www.fontbros.com/foundries/sideshow
+Slogan Font: SpaceMono-Regular.ttf
+
+icon designer: Claire Jones
+icon designer link: /hivernoir
+        
+{"bg":"transparent","icon-gradient-0":"#30092A","icon-gradient-1":"#CB3C61","font":"#000000","slogan":"#141414"}
+      
