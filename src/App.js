@@ -36,7 +36,7 @@ const App = () => {
   return (
     <div className={`${currentMode === "dark" ? "dark" : ""} `}>
       {themeSettings && <ThemeSettings />}
-      <div className="fixed top-2 left-2 text-xl z-20 sm:before:content-['sm'] md:before:content-['md'] lg:before:content-['lg'] xl:b sm:before:content-['sm']efore:content-['xl'] 2xl:before:content-['2xl']"></div>
+      {/* <div className="fixed top-2 left-2 text-xl z-20 sm:before:content-['sm'] md:before:content-['md'] lg:before:content-['lg'] xl:b sm:before:content-['sm']efore:content-['xl'] 2xl:before:content-['2xl']"></div> */}
       <BrowserRouter>
         <div className="relative flex dark:bg-main-dark-bg">
           <div className="fixed z-50 right-4 bottom-4">

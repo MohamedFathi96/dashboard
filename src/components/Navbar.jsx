@@ -54,10 +54,7 @@ const Navbar = () => {
         </button>
       </TooltipComponent>
       <TooltipComponent content="Search" position="BottomCenter">
-        <button
-          style={{ color: currentColor }}
-          onClick={() => handleClick("search")}
-        >
+        <button style={{ color: currentColor }}>
           <BiSearchAlt className="text-2xl cursor-pointer" />
         </button>
       </TooltipComponent>
@@ -66,27 +63,18 @@ const Navbar = () => {
         content="Cart"
         position="BottomCenter"
       >
-        <button
-          style={{ color: currentColor }}
-          onClick={() => handleClick("cart")}
-        >
+        <button style={{ color: currentColor }}>
           <FiShoppingCart className="text-2xl cursor-pointer" />
         </button>
       </TooltipComponent>
 
       <TooltipComponent content="Chat" position="BottomCenter">
-        <button
-          style={{ color: currentColor }}
-          onClick={() => handleClick("chat")}
-        >
+        <button style={{ color: currentColor }}>
           <BiChat className="text-2xl cursor-pointer" />
         </button>
       </TooltipComponent>
       <TooltipComponent content="Notification" position="BottomCenter">
-        <button
-          style={{ color: currentColor }}
-          onClick={() => handleClick("notification")}
-        >
+        <button style={{ color: currentColor }}>
           <MdOutlineNotificationsActive className="text-2xl cursor-pointer" />
         </button>
       </TooltipComponent>
@@ -94,10 +82,7 @@ const Navbar = () => {
       <TooltipComponent content="Profile" position="BottomCenter">
         <div className="flex gap-1 items-center">
           <img src={avatar} className="w-10 rounded-full " />
-          <button
-            style={{ color: currentColor }}
-            onClick={() => handleClick("userProfile")}
-          >
+          <button style={{ color: currentColor }}>
             <span className="text-gray-500 font-medium">Hi, </span>
             <span className="font-extrabold text-gray-500">Adam</span>
           </button>
